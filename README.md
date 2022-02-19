@@ -1,8 +1,8 @@
 ## What's For Dinner?
-This app will help you answer the question of dinner quickly and randomly.
+This app will help you answer the question of what to cook for dinner quickly and randomly.
 
 #### Deploy Link
-Try the website here!
+[Try the website here!](https://whiteheadol.github.io/whats-for-dinner/)
 
 ### Description
 This app was put together over the course of five days as an assignment from Turing School of Software and Design. It was the first time myself and most of the students touched CSS, and it was a fun learning experience.
