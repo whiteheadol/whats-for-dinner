@@ -1,3 +1,4 @@
+// Query Selectors
 var letsCookButton = document.querySelector('.cook-button');
 var cookpotImage = document.querySelector('.cookpot');
 var dishPrinted = document.querySelector('.dish-output');
@@ -5,6 +6,7 @@ var dishHeading = document.querySelector('.dish-heading');
 var clearButton = document.querySelector('.clear');
 var radioInputs = document.getElementsByName('food');
 
+// Event Listeners
 letsCookButton.addEventListener('click', function() {
   showRandomDish();
   showDishPage();
@@ -15,6 +17,7 @@ clearButton.addEventListener('click', function() {
   clearRadioButtons();
 });
 
+// Functions
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 };
@@ -54,6 +57,7 @@ function clearRadioButtons() {
   }
 };
 
+// Data
 var sides = ['Miso Glazed Carrots', 'Coleslaw', 'Garden Salad', 'Crispy Potatoes',
 'Sweet Potato Tots', 'Coconut Rice', 'Caesar Salad', 'Shrimp Summer Rolls',
 'Garlic Butter Mushrooms', 'Hush Puppies'];
